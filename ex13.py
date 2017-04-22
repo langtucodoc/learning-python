@@ -1,6 +1,6 @@
 #!/bin/env python
 
-# Ex11: Parameters, Unpacking, Variables
+# Ex13: Parameters, Unpacking, Variables
 
 #name = "Tong Duy Ngoc"
 
@@ -9,8 +9,9 @@
 
 from sys import argv
 
-name, height, weight = argv
+script, first, second, third = argv
 
-print "My name is", name
-print "Tall", height
-print "Heavy", weight
+print "The script is called:", script
+print "Your first variable is:", first
+print "Your second variable is:", second
+print "Your third variable is:", third
